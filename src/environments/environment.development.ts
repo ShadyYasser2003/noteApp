@@ -1,7 +1,5 @@
 export const environment = {
-  // baseUrl: 'https://note-sigma-black.vercel.app/api/v1/users/',
-  // notesUrl: 'https://note-sigma-black.vercel.app/api/v1/',
-  notesUrl: 'http://localhost:3000/api/notes',
-  registerURL: 'http://localhost:3000/api/auth/register',
-  loginURL: 'http://localhost:3000/api/auth/login',
+  notesUrl: 'http://192.168.59.100:30001/api/notes',
+  registerURL: 'http://192.168.59.100:30001/api/auth/register',
+  loginURL: 'http://192.168.59.100:30001/api/auth/login',
 };
